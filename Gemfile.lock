@@ -208,7 +208,6 @@ DEPENDENCIES
   debug
   puma (>= 5.0)
   rails (~> 8.0.1)
-  tzinfo-data
 
 BUNDLED WITH
    2.6.2
