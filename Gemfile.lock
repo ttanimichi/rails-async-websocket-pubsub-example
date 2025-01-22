@@ -141,6 +141,7 @@ GEM
     fiber-local (1.1.0)
       fiber-storage
     fiber-storage (1.0.0)
+    foreman (0.88.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -292,6 +293,7 @@ DEPENDENCIES
   async-websocket (~> 0.30.0)
   debug
   falcon (~> 0.48.4)
+  foreman (~> 0.88.1)
   rails (~> 8.0.1)
 
 BUNDLED WITH
