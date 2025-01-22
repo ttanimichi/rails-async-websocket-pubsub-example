@@ -1,24 +1,17 @@
-# README
+# rails-async-websocket-pubsub-example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Development
 
-Things you may want to cover:
+```
+$ bundle ex foreman start
+$ websocat ws://localhost:3001
+$ websocat ws://localhost:3002
+```
 
-* Ruby version
+![](demo.gif)
 
-* System dependencies
+## Production
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ bundle exec falcon host
+```
